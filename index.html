@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabajo practico grupal, para la materia de diseño y desarrollo web">
+    <meta name="keywords" content="diseño web, diseño grafico, trabajo practico, web">
+    <meta name="author" content="Grupo 8">
+
+    <title>Grupo 8</title>
+    
+    <link rel="shortcut icon" href="assets/logo_sustentable.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/LogoNavSmall.png" alt="Logo">
+            <p class="grupo-text">GRUPO 8</p>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/proyecto.html">Proyecto</a></li>
+                <li><a href="pages/integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-index">
+        <p class="materia">DISE&Ntilde;O Y DESARROLLO WEB</p>
+        <img class="responsive-img" src="assets/logo.jpeg" alt="Logo UADE" style="min-width: 30%;">
+        <p class="datos-cursada">Cursada: Lunes, Noche</p>
+        <p class="datos-cursada">Año: 2023</p>
+        <p class="datos-cursada">Profesora: Litovicious Patricia Carina</p>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector(".menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

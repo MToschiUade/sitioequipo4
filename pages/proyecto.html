@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabajo practico grupal, para la materia de diseño y desarrollo web">
+    <meta name="keywords" content="diseño web, diseño grafico, trabajo practico, web">
+    <meta name="author" content="Grupo 8">
+
+    <title>Grupo 8 - Proyecto</title>
+    
+    <link rel="shortcut icon" href="../assets/logo_sustentable.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/proyecto.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/LogoNavSmall.png" alt="Logo">
+            <p class="grupo-text">GRUPO 8</p>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="proyecto.html">Proyecto</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-proyecto">
+        <img class="responsive-img" src="../assets/proyecto/agenda_2030.png" alt="Agenda 2030">
+
+        <hr>
+        <p class="titulo-proyecto">PROYECTO SELECCIONADO</p>
+        <hr>
+
+        <div class="descripcion-proyecto-content">
+            <div>
+                <img class="responsive-img" src="../assets/proyecto/produccion.jpg" alt="Producci&oacute;n responsable">
+            </div>
+            <div class="descripcion-proyecto">
+                <p style="color: #173567; font-weight: bold;">PRODUCCION Y CONSUMO RESPONSABLE</p>
+                <p><span style="font-weight: 600;">Propuesta:</span> Construir un sitio web que muestre las ubicaciones de los comercios de productos que sean amigables con el medio ambiente en un mapa, asegurandose que el sitio web sea fácil de navegar, incluiyendo información adicional y fomentando la participación de los usuarios.</p>
+                <p>Puntos importandes:</p>
+                    <ol>
+                        <li>Identificara los comercios que promuevan el consumo responsable y la venta de productos amigables con el medio ambiente.</li>
+                        <li>Mostrando información comercios identificados y sus ubicaciones.</li>
+                        <li>Asegurandose que el sitio web sea fácil de navegar y que los usuarios puedan buscar comercios por ubicación o tipo de producto.</li>
+                    </ol>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector(".menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

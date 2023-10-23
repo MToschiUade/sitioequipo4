@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabajo practico grupal, para la materia de diseño y desarrollo web">
+    <meta name="keywords" content="diseño web, diseño grafico, trabajo practico, web">
+    <meta name="author" content="Grupo 8">
+
+    <title>Grupo 8 - Integrantes</title>
+
+    <link rel="shortcut icon" href="../assets/logo_sustentable.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/integrantes.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/LogoNavSmall.png" alt="Logo">
+            <p class="grupo-text">GRUPO 8</p>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="proyecto.html">Proyecto</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-integrantes">
+        <p class="titulo-integrantes">INTEGRANTES</p>
+        <hr>
+        <div class="integrantes-container-imagenes">
+            <div class="image-container">
+                <img class="integrantes-responsive-img" src="../assets/integrantes/matiast.png" alt="Matias E. Toschi">
+                <p class="image-text">Matias E. Toschi</p>
+                <p><a href="https://mtoschiuade.github.io/matiasCV2023DesaWebC2/" target="_blank">Ver Curriculum</a></p>
+            </div>
+            <div class="image-container">
+                <img class="integrantes-responsive-img" src="../assets/integrantes/gustavo.png" alt="Gustavo A. Veliz">
+                <p class="image-text">Gustavo A. Veliz</p>
+                <p><a href="https://gveliz2000.github.io/curriculum/" target="_blank">Ver Curriculum</a></p>
+            </div>
+            <div class="image-container">
+                <img class="integrantes-responsive-img" src="../assets/integrantes/matiasr.png" alt="Matias Roccazzella">
+                <p class="image-text">Matias Roccazzella</p>
+                <p><a href="https://mroccazzella.github.io/CV-MatiasRoccazzella/" target="_blank">Ver Curriculum</a></p>
+            </div>
+            <div class="image-container">
+                <img class="integrantes-responsive-img" src="../assets/integrantes/facundom.png" alt="Facundo Milher">
+                <p class="image-text">Facundo Milher</p>
+                <p><a href="https://facumilher.github.io/CVFacundo-Milher/" target="_blank">Ver Curriculum</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector(".menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

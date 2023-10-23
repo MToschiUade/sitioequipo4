@@ -1,0 +1,59 @@
+.content-integrantes{
+    width: 70%;
+    margin: 0 auto; /* Centrar todo el contenido horizontalmente */ 
+}
+.integrantes-container-imagenes{
+    
+    display: flex;
+    flex-wrap: wrap; /* Alineación en fila */
+    justify-content: space-between; /* Espacio entre las imágenes */
+    margin-top: 10vh;
+}
+/* Estilo para las imágenes responsivas */
+.image-container {
+    width: 24%; /* Ancho de las imágenes en escritorio */
+    margin-bottom: 20px; /* Espacio entre las imágenes en escritorio */
+    text-align: center; /* Centrar el texto */
+}
+
+.integrantes-responsive-img {
+    /* max-width: 50%; */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre las imágenes en escritorio */
+    width: 90%; /* Ancho de las imágenes en escritorio */
+    border-radius: 100%;
+    box-shadow: 0 0 3px #468AC9;
+}
+
+.titulo-integrantes{
+    font-size: x-large;
+    color: #468AC9;
+    font-weight: bold;
+    margin-top: 2re;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    background-color: #468AC9;
+    border: none;
+}
+
+/* Estilo para el texto debajo de las imágenes */
+.image-text {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .integrantes-responsive-img {
+        width: 100%; /* Ancho de las imágenes en escritorio */
+    }
+
+    .image-container {
+        width: 100%; /* Ancho de las imágenes en escritorio */
+        margin-bottom: 20px; /* Espacio entre las imágenes en escritorio */
+        text-align: center; /* Centrar el texto */
+    }
+}

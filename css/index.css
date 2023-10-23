@@ -1,0 +1,25 @@
+.content-index {
+    width: 70%;
+    margin: 0 auto; /* Centrar todo el contenido horizontalmente */
+    padding: 20px;
+    text-align: center; /* Centrar el texto en el contenido */
+}
+
+.materia{
+    font-size: xx-large;
+    color: #468AC9;
+    font-weight: bold;
+}
+
+.datos-cursada{
+    font-size: x-large;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .materia{
+        font-size: x-large;
+    }
+}
