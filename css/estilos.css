@@ -69,6 +69,11 @@ li a {
     height: auto;
 }
 
+.responsive-img-logo {
+    max-width: 25%;
+    height: auto;
+}
+
 .grupo-text{
     font-size: large;
 }
