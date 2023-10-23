@@ -1,0 +1,28 @@
+.titulo-avances{
+    font-size: x-large;
+    color: #468AC9;
+    font-weight: bold;
+    margin-top: 2re;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    background-color: #468AC9;
+    border: none;
+}
+
+.content-avances{
+    width: 70%;
+    margin: 0 auto; /* Centrar todo el contenido horizontalmente */ 
+}
+
+@media (max-width: 768px) {
+    .content-avances {
+        width: 90%;
+    }
+
+    .titulo-avances{
+        font-size: x-large;
+    }
+}
